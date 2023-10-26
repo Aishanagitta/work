@@ -1,0 +1,39 @@
+{%load static  %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usoke Explorers</title>
+    <link rel="stylesheet" href="static/css/base.css">
+</head>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="design.js">
+</head>
+<body id="body-a">
+<div id="UE">
+<div id="title">
+    <h1 id="Usoke">Usoke Explorers</h1>
+</div>
+
+<div id="menu">
+    <ul id="items">
+        <li><a href="home.html" id="hm">Home</li></a>
+        <li><a href="{% url 'aboutuspage' %}" id="About">About Us</li></a>
+        <li><a href="{% url 'servicespage' %}" id="Ss">Services</li></a>
+        <li><a href="{% url 'gallerypage' %}" id="pics">Gallery</li></a>
+        <li><a href="{% url 'contactuspage' %}" id="CU">Contact Us</li></a>
+
+    </ul>
+</div>
+</div>
+<div id="image-a">
+<img src="images/images133.jpg"  widhth="1000px" alt="">
+</div>
+
+</body>
+<footer id="copy">
+&copy; copy right reserved
+</footer>
+</html>

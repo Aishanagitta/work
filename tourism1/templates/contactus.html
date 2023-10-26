@@ -1,0 +1,43 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USoke Explorers</title>
+     <a href="{% url 'homepage' %}">Home</a>
+    <!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="static/css/base.css">
+   <!-- <link rel="stylesheet" href="design.js">-->
+    
+    <script>
+        function successfull(){
+    alert("submitted successfully");
+
+
+}
+    </script>
+</head>
+<body id="body-b">
+    <h1 id="Book">Booking</h1>
+    <form action="" method="POST">
+      <p><input type="text" class="form" id="" placeholder="Name"></p>
+     <p><input type="text" class="form" id="" placeholder="Contact"></p>
+     <p><input type="text" class="form" id="" placeholder="Email"></p>
+     <p><input type="text" class="form" id="" placeholder="destination"></p>
+     <p><input type="text" class="form" id="" placeholder="package"></p>
+     <p><input type="text" class="form" id="" placeholder="date & time"></p>
+    </form>
+    <!--<form action="">
+     <p>
+     <select class="form">
+         <option value="mobilemoney">mobilemoney</option>
+         <option value="VisaCard">VisaCard</option>
+         <option value="Cash On Delievery">Cash On Delievery</option>
+     </select></p>-->
+       <button onclick="successfull()" id="btn">book now</button>
+    </form>
+
+    
+</body>
+</html>

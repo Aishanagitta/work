@@ -1,0 +1,43 @@
+{%load static  %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usoke Explorers</title>
+     <a href="{% url 'homepage' %}">Home</a>
+    <link rel="stylesheet" href="static/css/base.css">
+    <!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="design.js">
+    
+</head>
+
+<body id="gallery">
+    <div id="img-a">
+    <img src="{% static 'images/IMG-20230802-WA0036.jpg' %}"  class="image" width="200px" alt="">
+    <img src="{% static 'images/IMG-20230802-WA0035.jpg' %}" class="image" width="200px"alt="">
+    <img src="{% static 'images/IMG-20230802-WA0031.jpg' %}" class="image" width="200px"alt="">
+    <img src="{% static 'images/IMG-20230802-WA0033.jpg' %}" class="image" width="200px"alt="">
+    <img src="{% static 'images/IMG-20230802-WA0030.jpg' %}" class="image" width="200px"alt="">
+    <img src="{% static 'images/IMG-20230802-WA0032.jpg' %}" class="image" width="200px"alt="">
+    <img src="{% static 'images/IMG-20230802-WA0029.jpg' %}" class="image" width="200px"alt="">
+    <img src="{% static 'images/IMG-20230731-WA0009.jpg' %}" class="image" width="200px"alt="">
+    <img src="{% static 'images/IMG-20230802-WA0002.jpg' %}" class="image" width="200px"alt="">
+    <img src="{% static 'images/IMG-20230802-WA0002.jpg' %}" class="image" width="200px"alt="">
+    <img src="{% static 'images/IMG-20230703-WA0280.jpg' %}" class="image" width="200px"alt="">
+    <img src="{% static 'images/IMG-20230703-WA0278.jpg' %}" class="image" width="200px"alt="">
+    <img src="{% static 'images/IMG-20230703-WA0276.jpg' %}" class="image" width="200px"alt="">
+    
+    </div>
+    
+    <div id="vid1">
+    <video src="{% static 'video/VID-20230902-WA0135.mp4' %}" width="200px"controls ></video>
+    <video src="{% static 'video/VID-20230824-WA0136.mp4' %}" width="200px"controls autoplay></video>
+    <video src="{% static 'video/VID-20230802-WA0041.mp4' %}" width="200px"controls autoplay></video>
+    <video src="{% static 'video/VID-20230802-WA0040.mp4' %}" width="200px"controls autoplay></video>
+    <video src="{% static 'video/VID-20230730-WA0059.mp4' %}" width="200px"controls autoplay></video>
+    <video src="{% static 'video/VID-20230730-WA0010.mp4' %}" width="200px"controls autoplay></video>
+   </div>
+</body>
+
+</html>
